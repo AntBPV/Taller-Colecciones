@@ -1,6 +1,9 @@
 package com.taller;
 
-import com.taller.utils.*;
+import com.taller.utils.ListExercises;
+import com.taller.utils.MapsExcersise;
+import com.taller.utils.ParteB_HashSet;
+import com.taller.utils.ParteD;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,7 +23,7 @@ public class Main {
         MapsExcersise.excersise_HashMap();
 
         // Parte D - Genéricos
-        ParteD_Genericos.ejecutar();
+        ParteD.ejecutar();
 
         System.out.println("\n========================================");
         System.out.println("           TALLER COMPLETADO");

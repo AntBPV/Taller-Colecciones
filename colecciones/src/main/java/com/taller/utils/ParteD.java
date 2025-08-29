@@ -2,9 +2,10 @@ package com.taller.utils;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import com.taller.models.Pedido;
 
-public class ParteD_Genericos {
+public class ParteD {
 
     public static void ejecutar() {
         System.out.println("=== PARTE D - GENERICOS ===");

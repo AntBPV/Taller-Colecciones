@@ -2,6 +2,7 @@ package com.taller.utils;
 
 import java.util.HashSet;
 import java.util.Set;
+
 import com.taller.models.Pedido;
 
 public class ParteB_HashSet {
@@ -24,5 +25,5 @@ public class ParteB_HashSet {
         for (Pedido pedido : pedidosSet) {
             System.out.println(pedido.getnombre_pedido() + " - $" + pedido.getPrecio());
         }
-
+    }
 }

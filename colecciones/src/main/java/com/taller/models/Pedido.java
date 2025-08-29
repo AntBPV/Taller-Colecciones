@@ -40,7 +40,6 @@ public class Pedido {
 
     @Override
     public String toString() {
-        return "Pedido [nombre_pedido=" + nombre_pedido + ", getnombre_pedido()=" + getnombre_pedido() + ", getClass()="
-                + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+        return "Pedido:" + nombre_pedido + " Precio: " + getPrecio();
     }
 }

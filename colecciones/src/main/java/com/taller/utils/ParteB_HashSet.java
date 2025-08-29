@@ -25,7 +25,4 @@ public class ParteB_HashSet {
             System.out.println(pedido.getnombre_pedido() + " - $" + pedido.getPrecio());
         }
 
-        System.out.println("Los duplicados se agregaron porque son objetos diferentes en memoria.");
-        System.out.println("Total de elementos: " + pedidosSet.size());
-    }
 }

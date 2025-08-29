@@ -2,14 +2,14 @@ package com.taller.models;
 
 public class Pedido {
     private String nombre_pedido;
-    private String precio;
+    private double precio;
 
 
     public Pedido(String nombre_pedido) {
         this.nombre_pedido = nombre_pedido;
     }
 
-    public Pedido(String nombre_pedido, String precio){
+    public Pedido(String nombre_pedido, double precio){
         this.nombre_pedido = nombre_pedido;
         this.precio = precio;
     }

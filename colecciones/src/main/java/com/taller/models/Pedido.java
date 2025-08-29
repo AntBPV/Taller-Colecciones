@@ -14,6 +14,22 @@ public class Pedido {
         this.precio = precio;
     }
 
+    public void setNombre_pedido(String nombre_pedido) {
+        this.nombre_pedido = nombre_pedido;
+    }
+
+    public String getNombre_pedido() {
+        return nombre_pedido;
+    }
+
+    public double getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
+    }
+
     public String getnombre_pedido() {
         return nombre_pedido;
     }
